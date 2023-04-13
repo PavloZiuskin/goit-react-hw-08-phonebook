@@ -2,7 +2,7 @@ import React, { lazy, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Route, Routes } from 'react-router-dom';
 import { Global } from '@emotion/react';
-import globalStyles from 'components/GlobalStyle';
+import {globalStyles} from 'components/GlobalStyle';
 import { Toaster } from 'react-hot-toast';
 import Layout from 'components/Layout/Layout';
 import { refreshUser } from 'redux/auth/authOperation';
