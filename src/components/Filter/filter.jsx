@@ -6,7 +6,7 @@ import {
 } from 'redux/contacts/filterSlice';
 import { Box, TextField } from '@mui/material';
 
-function Filter() {
+export const Filter=()=> {
   const dispatch = useDispatch();
 
   const handleSetFilter = evt => {
@@ -44,4 +44,4 @@ function Filter() {
   );
 }
 
-export default Filter;
+
